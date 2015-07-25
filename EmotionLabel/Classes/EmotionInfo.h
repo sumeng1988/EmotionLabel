@@ -16,4 +16,6 @@
 - (NSArray *)all;
 - (UIImage *)imageForKey:(NSString *)key;
 
++ (NSAttributedString *)attributedString:(NSString *)text;
+
 @end

@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "EmotionLabel.h"
-#import <UIKit/UIKit.h>
+#import "EmotionInfo.h"
 
 @interface ViewController ()
 
@@ -30,13 +29,13 @@
     [originLbl sizeToFit];
     [self.view addSubview:originLbl];
     
-    EmotionLabel *emotionLbl = [[EmotionLabel alloc] initWithFrame:CGRectMake(50, 150, 200, 0)];
+    UILabel *emotionLbl = [[UILabel alloc] initWithFrame:CGRectMake(50, 150, 200, 0)];
     emotionLbl.layer.borderColor = [[UIColor redColor] CGColor];
     emotionLbl.layer.borderWidth = 1;
     emotionLbl.numberOfLines = 0;
     emotionLbl.font = [UIFont systemFontOfSize:17];
     emotionLbl.textColor = [UIColor blackColor];
-    emotionLbl.text = @"convert: hello[hi], nice to meet you[smile]";
+    emotionLbl.attributedText = [EmotionInfo attributedString:@"convert: hello[hi], nice to meet you[smile]"];
     [emotionLbl sizeToFit];
     [self.view addSubview:emotionLbl];
 }

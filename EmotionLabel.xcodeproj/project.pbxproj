@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E5217C31AA4AD8200DF67F7 /* EmotionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217C21AA4AD8200DF67F7 /* EmotionLabel.m */; };
 		7E5217C51AA4ADA600DF67F7 /* emotions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E5217C41AA4ADA600DF67F7 /* emotions.plist */; };
 		7E5217C81AA4ADB900DF67F7 /* EmotionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217C71AA4ADB900DF67F7 /* EmotionInfo.m */; };
-		7E5217D31AA4AE4200DF67F7 /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217CB1AA4AE4200DF67F7 /* M80AttributedLabel.m */; };
-		7E5217D41AA4AE4200DF67F7 /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217CD1AA4AE4200DF67F7 /* M80AttributedLabelAttachment.m */; };
-		7E5217D51AA4AE4200DF67F7 /* M80AttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217D01AA4AE4200DF67F7 /* M80AttributedLabelURL.m */; };
-		7E5217D61AA4AE4200DF67F7 /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5217D21AA4AE4200DF67F7 /* NSMutableAttributedString+M80.m */; };
 		7E5217DA1AA4B37700DF67F7 /* emotion_hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5217D81AA4B37700DF67F7 /* emotion_hi@2x.png */; };
 		7E5217DB1AA4B37700DF67F7 /* emotion_smile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5217D91AA4B37700DF67F7 /* emotion_smile@2x.png */; };
 		7E5217DD1AA4B4FE00DF67F7 /* screen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5217DC1AA4B4FE00DF67F7 /* screen-1.png */; };
@@ -37,20 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E5217C11AA4AD8200DF67F7 /* EmotionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionLabel.h; sourceTree = "<group>"; };
-		7E5217C21AA4AD8200DF67F7 /* EmotionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionLabel.m; sourceTree = "<group>"; };
 		7E5217C41AA4ADA600DF67F7 /* emotions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotions.plist; sourceTree = "<group>"; };
 		7E5217C61AA4ADB900DF67F7 /* EmotionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionInfo.h; sourceTree = "<group>"; };
 		7E5217C71AA4ADB900DF67F7 /* EmotionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionInfo.m; sourceTree = "<group>"; };
-		7E5217CA1AA4AE4200DF67F7 /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
-		7E5217CB1AA4AE4200DF67F7 /* M80AttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabel.m; sourceTree = "<group>"; };
-		7E5217CC1AA4AE4200DF67F7 /* M80AttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelAttachment.h; sourceTree = "<group>"; };
-		7E5217CD1AA4AE4200DF67F7 /* M80AttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelAttachment.m; sourceTree = "<group>"; };
-		7E5217CE1AA4AE4200DF67F7 /* M80AttributedLabelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelDefines.h; sourceTree = "<group>"; };
-		7E5217CF1AA4AE4200DF67F7 /* M80AttributedLabelURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelURL.h; sourceTree = "<group>"; };
-		7E5217D01AA4AE4200DF67F7 /* M80AttributedLabelURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelURL.m; sourceTree = "<group>"; };
-		7E5217D11AA4AE4200DF67F7 /* NSMutableAttributedString+M80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+M80.h"; sourceTree = "<group>"; };
-		7E5217D21AA4AE4200DF67F7 /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
 		7E5217D81AA4B37700DF67F7 /* emotion_hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emotion_hi@2x.png"; sourceTree = "<group>"; };
 		7E5217D91AA4B37700DF67F7 /* emotion_smile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emotion_smile@2x.png"; sourceTree = "<group>"; };
 		7E5217DC1AA4B4FE00DF67F7 /* screen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-1.png"; sourceTree = "<group>"; };
@@ -90,29 +74,11 @@
 		7E5217B21AA4AD5A00DF67F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E5217C11AA4AD8200DF67F7 /* EmotionLabel.h */,
-				7E5217C21AA4AD8200DF67F7 /* EmotionLabel.m */,
 				7E5217C61AA4ADB900DF67F7 /* EmotionInfo.h */,
 				7E5217C71AA4ADB900DF67F7 /* EmotionInfo.m */,
 				7E5217C41AA4ADA600DF67F7 /* emotions.plist */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		7E5217C91AA4AE4200DF67F7 /* M80AttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				7E5217CA1AA4AE4200DF67F7 /* M80AttributedLabel.h */,
-				7E5217CB1AA4AE4200DF67F7 /* M80AttributedLabel.m */,
-				7E5217CC1AA4AE4200DF67F7 /* M80AttributedLabelAttachment.h */,
-				7E5217CD1AA4AE4200DF67F7 /* M80AttributedLabelAttachment.m */,
-				7E5217CE1AA4AE4200DF67F7 /* M80AttributedLabelDefines.h */,
-				7E5217CF1AA4AE4200DF67F7 /* M80AttributedLabelURL.h */,
-				7E5217D01AA4AE4200DF67F7 /* M80AttributedLabelURL.m */,
-				7E5217D11AA4AE4200DF67F7 /* NSMutableAttributedString+M80.h */,
-				7E5217D21AA4AE4200DF67F7 /* NSMutableAttributedString+M80.m */,
-			);
-			path = M80AttributedLabel;
 			sourceTree = "<group>";
 		};
 		7E5217D71AA4B37700DF67F7 /* emotion */ = {
@@ -153,7 +119,6 @@
 				7ED50C4C1AA4ABC50048293C /* Images.xcassets */,
 				7ED50C4E1AA4ABC50048293C /* LaunchScreen.xib */,
 				7E5217B21AA4AD5A00DF67F7 /* Classes */,
-				7E5217C91AA4AE4200DF67F7 /* M80AttributedLabel */,
 				7E5217D71AA4B37700DF67F7 /* emotion */,
 				7ED50C3F1AA4ABC40048293C /* Supporting Files */,
 			);
@@ -292,12 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED50C481AA4ABC40048293C /* ViewController.m in Sources */,
-				7E5217D41AA4AE4200DF67F7 /* M80AttributedLabelAttachment.m in Sources */,
-				7E5217D61AA4AE4200DF67F7 /* NSMutableAttributedString+M80.m in Sources */,
-				7E5217D51AA4AE4200DF67F7 /* M80AttributedLabelURL.m in Sources */,
 				7ED50C451AA4ABC40048293C /* AppDelegate.m in Sources */,
-				7E5217D31AA4AE4200DF67F7 /* M80AttributedLabel.m in Sources */,
-				7E5217C31AA4AD8200DF67F7 /* EmotionLabel.m in Sources */,
 				7ED50C421AA4ABC40048293C /* main.m in Sources */,
 				7E5217C81AA4ADB900DF67F7 /* EmotionInfo.m in Sources */,
 			);
@@ -422,7 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmotionLabel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -433,7 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmotionLabel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -1,6 +1,6 @@
 # EmotionLabel
 -----------
-base on M80AttributedLabel
+implement EmotionLabel on TextKit
 
 <p>
 
